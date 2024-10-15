@@ -75,13 +75,37 @@ nav {
     z-index: 1;
     top: 30px;
 }
-
+.about .container{ 
+    display: inline-flex;
+    gap: 5%;
+}
+.about .container div img{
+    position: relative;
+    width: 30%;
+    text-align: justify;
+    line-height: 40px;
+    top: -12vh;
+    left: 40%;
+    font-size: 19px;
+}
+.about .container div p{
+    position: relative;
+    width: 90%;
+    text-align: justify;
+    line-height: 40px;
+    top: -8vh;
+    font-size: 19px;
+}
 .line1{
     position: relative;
     border: 2px rgb(215, 14, 14) solid;
     width: 60px;
     top: 20px;
     left: -90px;
+}
+.header_page h2{
+    position: relative;
+    left: -15px;
 }
 .line2{
     position: relative;
@@ -92,116 +116,12 @@ nav {
 }
 
 
-#collection section{
-    display: inline-flex;
-    flex-direction: row;
-    gap: 20px;
-    
-}
-article{
-    position: sticky;
-    width: 230px;
-    height: 100vh;
-    padding-left: 15px;
-}
-.filter{
-    display: inline-flex;
-    flex-wrap: wrap;
-    gap: 100px;
-}
-.filter img{
-    width: 40px;
-}
-.line{
-    position: relative;
-    border: 2px rgb(215, 14, 14) solid;
-    width: 210px;
-    top: 15px;
-    left: 0;
-}
-.card
-{
-    position: relative;
-    top: 50px;
-}
-.card2{
-    position: relative;
-    top: 50px;
-}
-.checkbox{
-    display: flex;
-    flex-direction: column;
-}
-.checkbox div label{
-    margin-left: 10px;
-}
-.checkbox div{
-    margin: 10px 0 10px 30px;
-    display: flex;
-    flex-direction: row;
-}
-.art-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    row-gap: 40px;
-    column-gap: 20px;
-    width: 80vw;
-}
-
-.art-item {
-    width: 250px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.art-item img {
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
-}
-
-.art-item:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-button{
-    margin-top: 20px;
-    width: 250px;
-    height: 50px;
-    border: black 1px solid;
-    border-radius: 5px;
-    background-color: transparent;
-}
-
-#show-more {
-    margin: 20px 0 40px 0;
-    width: 600px;
-    position: relative;
-    translate: calc(49.1vw);
-}
-
-#show-more button {
-    background-color: #d10202;
-    color: white;
-    border: none;
-    padding: 12px 20px;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-#show-more button:hover {
-    background-color: #fa8181;
-}
-
 /* Footer */
 footer {
     background-color:#d10202 ;
     color: white;
     padding: 40px 0;
+    margin-top: -4.5px;
 }
 
 .footer-content {

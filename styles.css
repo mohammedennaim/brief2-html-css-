@@ -12,6 +12,8 @@ body {
 nav {
     background-color: #d10202; /* sea blue */
     padding: 15px 20px;
+    position: fixed;
+    width: 100%;
 }
 
 .navbar {

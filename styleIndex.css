@@ -1,5 +1,3 @@
-
-/* Hero section*/
 .hero {
     background-image: url('images/bg.jpg');
     background-size: cover;
@@ -43,12 +41,8 @@
     background-color: #f56e6e;
 }
 
-
-
-/* Start Gallery */
-
 section#collection {
-    padding: 40px;
+    padding: 40px 0 40px 80px;
     text-align: center;
 }
 
@@ -65,10 +59,8 @@ section#collection {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    word-spacing: 6px; /* Adjust this value as needed */
-
+    word-spacing: 6px;
     line-height: 30px;
-
 }
 
 #show-more {

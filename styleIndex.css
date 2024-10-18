@@ -41,9 +41,10 @@
     background-color: #f56e6e;
 }
 
-section .gallery {
+.gallery {
     padding: 40px 0 40px 80px;
     text-align: center;
+    width: 100%;
 }
 
 .gallery h2 {
@@ -63,11 +64,11 @@ section .gallery {
     line-height: 30px;
 }
 
-.gallery #show-more {
+.gallery div#show-more {
     margin-top: 30px;
 }
 
-.gallery #show-more button {
+.gallery div#show-more button {
     background-color: #d10202;
     color: white;
     border: none;
@@ -78,6 +79,6 @@ section .gallery {
     transition: background-color 0.3s ease;
 }
 
-.gallery #show-more button:hover {
+.gallery div#show-more button:hover {
     background-color: #fa8181;
 }
